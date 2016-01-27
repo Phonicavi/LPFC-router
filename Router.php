@@ -1,6 +1,6 @@
 <?php
 
-namespace LPFCRouter\Hermes;
+namespace Hermes\Router;
 
 
 class Router {

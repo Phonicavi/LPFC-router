@@ -1,7 +1,6 @@
 {
     "name": "phonicavi/lpfc-router",
     "description": "A simple router for LPFC",
-    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -11,8 +10,11 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "psr-4": {
-            "LPFCRouter\\Hermes\\": ""
-        }
-    }
+		"php": ">=5.3.3"
+	},
+	"autoload": {
+		"psr-4": {
+			"Hermes\\Router\\": ""
+		}
+	}
 }
