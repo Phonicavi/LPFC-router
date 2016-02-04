@@ -46,11 +46,11 @@ since the namespace `LPFCRouter\\Hermes\\` defined by *lpfc-router*
 
 Since native function `__callstatic()` used, you can register your routes with simple forms like  
         
-        `Route::get()` 
+        Route::get() 
         
 or  
         
-        `Route::post()`  
+        Route::post()  
 
 
 
