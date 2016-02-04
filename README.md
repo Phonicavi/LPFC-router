@@ -37,7 +37,9 @@ move them to `./vendor/phonicavi/lpfc-router/` in which `./` is just the root di
 
 add that below in your route-configuration file:  
 
-		use LPFCRouter\Hermes\Route;
+```PHP
+use LPFCRouter\Hermes\Route;
+```
 
 since the namespace `LPFCRouter\\Hermes\\` defined by *lpfc-router*  
 
@@ -45,13 +47,15 @@ since the namespace `LPFCRouter\\Hermes\\` defined by *lpfc-router*
 ### Use Method  
 
 Since native function `__callstatic()` used, you can register your routes with simple forms like  
-        
-        Route::get() 
-        
-or  
-        
-        Route::post()  
 
+```PHP
+Route::get() 
+```
+
+or  
+```PHP
+Route::post()  
+```
 
 
 ***more details need to be added***
